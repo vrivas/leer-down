@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css?family=Parisienne');
+.palabra {
+  font-family: 'Parisienne';
+  font-size: 900%;
+}
+
+.ejercicio {
+  text-align: center;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
+  background-color: white;
+  border: 0px solid blue;
+}
+
+.fotos-3-palabras-1 .foto1
+, .fotos-3-palabras-1 .foto2
+, .fotos-3-palabras-1 .foto3 {
+  width: 28%;
+  height: 50%;
+  max-width: 28%;
+  max-height: 60%;
+  margin: 2%;
+  border: 3px solid rgba(100,100,255,.5);
+  float: left;
+  overflow: hidden;
+}
+
+.fotos-3-palabras-1  .foto1  img
+, .fotos-3-palabras-1  .foto2  img
+, .fotos-3-palabras-1  .foto3  img
+{
+  width: 90%;
+  height: 90%;
+}
+
+.fotos-3-palabras-1 .palabra {
+  margin: .5em;
+  border: 0px solid red;
+  text-align: center;
+  clear: both;
+}
